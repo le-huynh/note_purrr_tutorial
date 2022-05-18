@@ -9,10 +9,9 @@ map(VECTOR_OR_LIST_INPUT, FUNCTION_TO_APPLY, OPTIONAL_OTHER_STUFF)
 ```
 
 ```
-res <- vector(mode = "list", length = length(.x))
-res[[1]] <- .f(.x[[1]], ...)
-res[[2]] <- .f(.x[[2]], ...)
-## and so on, until the end of .x
+map(data, function(x) paste(x, collapse = "|")) 
+map(data, paste, collapse = "|")
+map(data, ~ paste(.x, collapse = " | "))
 ```
 
 ## Workflow advice
