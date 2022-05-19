@@ -1,5 +1,7 @@
 # note_purrr_tutorial
-Code and personal notes for [purrr_tutorial](https://jennybc.github.io/purrr-tutorial/index.html) by Jenny Bryan
+Code and personal notes for `purrr` R package, from:
+- [purrr_tutorial](https://jennybc.github.io/purrr-tutorial/index.html) by Jenny Bryan
+- [Learn to purrr](https://www.rebeccabarter.com/blog/2019-08-19_purrr/#additional-purrr-functionalities-for-lists) by Rebecca Barter
 
 ## Overview
 ### `map()`
