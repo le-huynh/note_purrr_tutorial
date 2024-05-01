@@ -33,7 +33,7 @@ pmap(.l, .f, ...)
 map(LIST_OF_INPUT_LISTS, FUNCTION_TO_APPLY, OPTIONAL_OTHER_STUFF)
 ```
 
-## Workflow advice
+## Recommended workflow
 - test the idea on a single element
 - drop the *proven, working logic* into `map()`
 - when things aren’t working as expected:
